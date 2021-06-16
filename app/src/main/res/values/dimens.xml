@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="splashPaddingMain">50dp</dimen>
+    <dimen name="splashIvHeight">400dp</dimen>
+    <dimen name="splashTextSize">50sp</dimen>
+    <dimen name="marginLeftNavigation">45dp</dimen>
+    <dimen name="marginTopNavigation">15dp</dimen>
+    <dimen name="heightNavigation">70dp</dimen>
+    <dimen name="widthNavigation">70dp</dimen>
+    <dimen name="navWidthHamb">162dp</dimen>
+    <dimen name="navHeightHamb">200dp</dimen>
+    <dimen name="widthMediaImage">300dp</dimen>
+    <dimen name="heightMediaImage">300dp</dimen>
+    <dimen name="margBotMediaImage">40dp</dimen>
+    <dimen name="widthSeekBar">300dp</dimen>
+    <dimen name="margBotSeekBar">20dp</dimen>
+    <dimen name="marginBtnMedia">20dp</dimen>
+    <dimen name="paddingItem">10dp</dimen>
+    <dimen name="ivSize">60dp</dimen>
+    <dimen name="marginLeftxtItem">20dp</dimen>
+    <dimen name="tvSize">20sp</dimen>
+    <dimen name="marginLetIVItem">10dp</dimen>
+    <dimen name="cornerRadius">10dp</dimen>
+    <dimen name="paddingItemPager">10dp</dimen>
+    <dimen name="ivHeight">300dp</dimen>
+    <dimen name="nameMarginTop">20dp</dimen>
+    <dimen name="widthItemPager">0dp</dimen>
+    <dimen name="txtSize">30sp</dimen>
+    <dimen name="tvMarginTopItems">40dp</dimen>
+    <dimen name="marginTopBlurb">20dp</dimen>
+    <dimen name="txtSizedesc">17sp</dimen>
+</resources>

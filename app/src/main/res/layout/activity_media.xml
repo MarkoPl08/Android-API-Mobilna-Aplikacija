@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaActivity"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:id="@+id/ll_wrapper_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/widthMediaImage"
+            android:layout_height="@dimen/heightMediaImage"
+            android:src="@drawable/musicplayer"
+            android:layout_marginBottom="@dimen/margBotMediaImage"/>
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="@dimen/widthSeekBar"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margBotSeekBar" />
+
+        <LinearLayout
+            android:id="@+id/ll_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_play"
+                android:layout_margin="@dimen/marginBtnMedia"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_play" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_pause"
+                android:layout_margin="@dimen/marginBtnMedia"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_pause"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_stop"
+                android:layout_margin="@dimen/marginBtnMedia"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_stop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mediaPlayer"
+        android:title="@string/media"
+        app:showAsAction="always"
+        android:icon="@drawable/mediaplayer"
+        />
+    <item
+        android:id="@+id/menuExit"
+        android:title="@string/exit"
+        android:icon="@drawable/betterexit"
+        app:showAsAction="ifRoom"/>
+
+
+</menu>
